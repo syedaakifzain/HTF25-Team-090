@@ -104,3 +104,51 @@ Provide a user-friendly interface where users can enter asteroid characteristics
 
 Present dataset statistics, distributions, correlations, and model performance through visualizations.
 
+🧠 Solution
+
+The system follows a complete machine learning workflow:
+
+                    ┌──────────────────────┐
+                    │    Asteroid Dataset  │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │ Data Preprocessing   │
+                    │ & Cleaning           │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │ Feature Selection    │
+                    │ & Engineering        │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │ Train/Test Split     │
+                    └──────────┬───────────┘
+                               │
+                ┌──────────────┼──────────────┐
+                │              │              │
+                ▼              ▼              ▼
+        ┌────────────┐ ┌────────────┐ ┌────────────┐
+        │ Logistic   │ │ Decision   │ │ Random     │
+        │ Regression │ │ Tree       │ │ Forest     │
+        └──────┬─────┘ └──────┬─────┘ └──────┬─────┘
+               │              │              │
+               └──────────────┼──────────────┘
+                              ▼
+                    ┌──────────────────────┐
+                    │ Model Evaluation     │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │ Best Model Selection │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │ Hazard Prediction    │
+                    └──────────────────────┘
