@@ -70,3 +70,36 @@ Mean motion
 Different representations of miss distance
 
 The classification system can help demonstrate how machine learning can be applied to astronomical datasets for automated risk categorization.
+
+💡 Objectives
+
+The primary objectives of this project are:
+
+1. Data Preparation
+
+Clean and preprocess the asteroid dataset so that it can be effectively used for machine learning.
+
+2. Feature Selection
+
+Identify relevant orbital and physical characteristics that contribute to asteroid hazard classification.
+
+3. Model Development
+
+Train multiple classification algorithms and compare their performance.
+
+4. Model Evaluation
+
+Evaluate models using standard classification metrics such as:
+
+Accuracy
+Precision
+Recall
+F1-score
+Confusion matrix
+5. Interactive Prediction
+
+Provide a user-friendly interface where users can enter asteroid characteristics and receive a hazard prediction.
+
+6. Data Visualization
+
+Present dataset statistics, distributions, correlations, and model performance through visualizations.
