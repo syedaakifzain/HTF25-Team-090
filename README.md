@@ -53,4 +53,20 @@ The system combines:
 📉 Data visualization
 🌐 Interactive Streamlit dashboard
 🔮 Real-time prediction using user-provided asteroid characteristics
-🎯
+
+🎯 Problem Statement
+Data-Driven Classification of Hazardous Asteroids
+
+The objective is to build a binary classification machine learning model capable of predicting whether an asteroid is potentially hazardous using measurable orbital and physical characteristics.
+
+The model considers attributes such as:
+
+Relative velocity
+Miss distance
+Orbital period
+Semi-major axis
+Aphelion distance
+Mean motion
+Different representations of miss distance
+
+The classification system can help demonstrate how machine learning can be applied to astronomical datasets for automated risk categorization.
