@@ -152,3 +152,38 @@ The system follows a complete machine learning workflow:
                     ┌──────────────────────┐
                     │ Hazard Prediction    │
                     └──────────────────────┘
+✨ Key Features
+📊 1. Data Exploration
+
+The application provides tools for exploring the asteroid dataset, including:
+
+Dataset preview
+Dataset statistics
+Missing-value analysis
+Feature distributions
+Correlation analysis
+Data summaries
+🧹 2. Data Preprocessing
+
+The preprocessing pipeline prepares raw asteroid data for machine learning.
+
+Typical preprocessing operations include:
+
+Selecting relevant columns
+Handling missing values
+Converting numerical fields
+Cleaning inconsistent data
+Preparing target labels
+Separating features and target variables
+🎯 3. Feature Selection
+
+The model uses orbital and distance-related characteristics to identify patterns associated with hazardous asteroids.
+
+The project README identifies the following major feature groups:
+
+Relative velocity
+Miss distance
+Orbital period
+Semi-major axis
+Aphelion distance
+Mean motion
