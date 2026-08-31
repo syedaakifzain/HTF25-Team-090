@@ -248,3 +248,20 @@ The best-performing model is saved for future predictions.
 Step 9 — Prediction
 
 The selected model is used to classify new asteroid observations.
+
+📐 Features Used
+
+The project currently works with asteroid characteristics including:
+
+Feature	Description
+Relative Velocity km per hr	Relative velocity of the asteroid
+Miles per hour	Velocity representation in miles/hour
+Miss Dist. (Astronomical)	Miss distance represented in astronomical units
+Miss Dist. (lunar)	Miss distance represented in lunar distances
+Miss Dist. (kilometers)	Miss distance represented in kilometres
+Semi Major Axis	Semi-major axis of the asteroid's orbit
+Aphelion Dist	Maximum orbital distance
+Mean Motion	Orbital motion parameter
+Orbital Period	Time required to complete an orbit
+
+The exact feature-selection logic is implemented inside the preprocessing pipeline.
