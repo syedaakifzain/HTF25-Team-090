@@ -265,3 +265,17 @@ Mean Motion	Orbital motion parameter
 Orbital Period	Time required to complete an orbit
 
 The exact feature-selection logic is implemented inside the preprocessing pipeline.
+
+.
+
+🤖 Machine Learning Models
+
+The project is designed to train and compare:
+
+Model	Purpose
+Logistic Regression	Baseline binary classifier
+Decision Tree	Rule-based classification
+Random Forest	Ensemble-based classification
+Best Model	Selected based on evaluation performance
+
+The resulting trained models are stored under the models/ directory.
