@@ -187,3 +187,64 @@ Orbital period
 Semi-major axis
 Aphelion distance
 Mean motion
+
+🤖 4. Multiple Machine Learning Models
+
+The project supports comparison between multiple classification algorithms:
+
+Logistic Regression
+
+Provides a simple and interpretable baseline for binary classification.
+
+Decision Tree
+
+Uses decision rules derived from the input features to classify asteroids.
+
+Random Forest
+
+Combines multiple decision trees to produce a more robust classification model.
+
+The trained models can then be compared to determine which performs best on the available dataset.
+
+🔬 Machine Learning Pipeline
+
+The project follows these major stages:
+
+Step 1 — Load Dataset
+
+The asteroid dataset is loaded from CSV format.
+
+dataset.csv
+Step 2 — Data Cleaning
+
+The data is inspected and cleaned before training.
+
+Step 3 — Feature Selection
+
+Relevant numerical features are selected.
+
+Step 4 — Target Separation
+
+The dataset is divided into:
+
+X → Input features
+y → Hazard classification
+Step 5 — Train/Test Split
+
+The available data is separated into training and testing subsets.
+
+Step 6 — Model Training
+
+Multiple classification models are trained.
+
+Step 7 — Model Evaluation
+
+Each model is evaluated using classification metrics.
+
+Step 8 — Best Model Selection
+
+The best-performing model is saved for future predictions.
+
+Step 9 — Prediction
+
+The selected model is used to classify new asteroid observations.
